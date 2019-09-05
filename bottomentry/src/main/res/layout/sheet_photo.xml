@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    android:layout_marginTop="45dp">
+    <FrameLayout
+        android:id="@+id/sheet_photo_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:background="@color/google_assistant_background"
+        android:focusable="true">
+        <LinearLayout
+            android:id="@+id/sheet_photo_pull"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:paddingStart="80dp"
+            android:paddingEnd="80dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true">
+            <View
+                android:layout_width="50dp"
+                android:layout_height="4dp"
+                android:background="@drawable/shape_corner_sheet_photo_pull"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="bottom">
+            <GridLayout
+                android:id="@+id/sheet_photo_gridLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:rowCount="3"
+                android:orientation="horizontal">
+
+
+
+            </GridLayout>
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>
