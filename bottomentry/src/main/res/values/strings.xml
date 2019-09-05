@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">bottomentry</string>
+    <string name="mic_dialog_upToSend">松开发送</string>
+    <string name="mic_dialog_upToCancel">松开取消录制</string>
+    <string name="mic_dialog_timeTooShort">录音时间过短</string>
+    <string name="editText_hint">Aa…</string>
+    <string name="send">Send</string>
+</resources>

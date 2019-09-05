@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomEntry">
+
+        <!-- 选择图片的最大数量 -->
+
+        <attr name="maxPhotoNum" format="integer"/>
+
+        <!-- 面板颜色 -->
+        <attr name="themeColor" format="reference"/>
+
+        <!-- 发送按钮显示的文字 -->
+        <attr name="sendShow" format="string"/>
+    </declare-styleable>
+</resources>
